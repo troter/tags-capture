@@ -4,7 +4,7 @@
   <groupId>jp.troter</groupId>
   <artifactId>tags-capture</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.0</version>
   <name>tags-capture</name>
   <build>
     <finalName>tags-capture</finalName>
@@ -20,7 +20,6 @@
       <plugin>
         <artifactId>maven-eclipse-plugin</artifactId>
         <configuration>
-          <wtpversion>2.0</wtpversion>
           <downloadSources>true</downloadSources>
           <downloadJavadocs>true</downloadJavadocs>
           <additionalConfig>
@@ -59,6 +58,11 @@ line.separator=\n
       <artifactId>geronimo-jsp_2.0_spec</artifactId>
       <version>1.0</version>
       <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>commons-lang</groupId>
+      <artifactId>commons-lang</artifactId>
+      <version>2.5</version>
     </dependency>
   </dependencies>
 </project>
