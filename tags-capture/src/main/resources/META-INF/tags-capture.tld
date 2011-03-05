@@ -26,7 +26,7 @@
   <display-name>tags capture</display-name>
   <tlib-version>1.0</tlib-version>
   <short-name>tc</short-name>
-  <uri>http://troter.github.com/tags-capture</uri>
+  <uri>http://troter.jp/tags-capture</uri>
 
   <tag>
     <name>contentFor</name>
