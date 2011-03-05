@@ -17,6 +17,19 @@
           <encoding>UTF-8</encoding>
         </configuration>
       </plugin>
+      <!-- source-jar -->
+      <plugin>
+        <artifactId>maven-source-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>source-jar</id>
+            <phase>package</phase>
+            <goals>
+              <goal>jar</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
       <plugin>
         <artifactId>maven-eclipse-plugin</artifactId>
         <configuration>
