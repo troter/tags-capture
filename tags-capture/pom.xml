@@ -19,7 +19,7 @@
 
   <!-- Build Settings -->
   <build>
-    <finalName>${pom.artifactId}</finalName>
+    <finalName>${project.artifactId}</finalName>
     <plugins>
       <!-- maven-compiler-plugin -->
       <plugin>
