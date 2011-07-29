@@ -10,7 +10,45 @@
 
   <!-- More Project Information -->
   <name>tags-capture</name>
-  <description />
+  <description>
+    Simple capture library for JSP.
+  </description>
+  <url>https://github.com/troter/tags-capture</url>
+  <inceptionYear>2011</inceptionYear>
+
+  <licenses>
+    <license>
+      <name>Apache 2</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <scm>
+    <connection>scm:git:git@github.com:troter/tags-capture.git</connection>
+    <developerConnection>scm:git:git@github.com:troter/tags-capture.git</developerConnection>
+    <url>scm:git:git@github.com:troter/tags-capture.git</url>
+  </scm>
+
+  <developers>
+    <developer>
+      <id>troter</id>
+      <name>Troter</name>
+      <email>trot.thunder@gmail.com</email>
+      <url>http://troter.jp/</url>
+      <roles>
+        <role>lead</role>
+        <role>architect</role>
+        <role>developer</role>
+      </roles>
+      <timezone>+9</timezone>
+    </developer>
+  </developers>
+
+  <issueManagement>
+    <system>github.com</system>
+    <url>https://github.com/troter/tags-capture/issues</url>
+  </issueManagement>
 
   <!-- Properties -->
   <properties>
