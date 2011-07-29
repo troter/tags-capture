@@ -1,5 +1,7 @@
-Simple Capture library for JSP.
+Simple capture library for JSP.
 ===============================
+
+Railsのcontent_forのような動作をする、シンプルなキャプチャライブラリです。
 
 pom.xmlに追記する設定
 ---------------------
